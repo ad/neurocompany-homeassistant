@@ -13,12 +13,20 @@
     "TELEGRAM_TOKEN": "",
     "TELEGRAM_ADMIN_IDS": "",
     "ALLOWED_CHAT_IDS": "",
-    "DEBUG": false
+    "DEBUG": false,
+    "integrations": []
   },
   "schema": {
     "TELEGRAM_TOKEN": "str",
     "TELEGRAM_ADMIN_IDS": "str",
     "ALLOWED_CHAT_IDS": "str",
-    "DEBUG": "bool"
+    "DEBUG": "bool",
+    "integrations": [
+      {
+        "type": "str",
+        "id": "str?",
+        "secret": "str?"
+      }
+    ]
   }
 }
