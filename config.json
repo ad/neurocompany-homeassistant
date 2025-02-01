@@ -1,0 +1,24 @@
+{
+  "version": "0.0.0",
+  "name": "neurocompany",
+  "slug": "neurocompany",
+  "description": "",
+  "startup": "application",
+  "boot": "auto",
+  "image": "danielapatin/neurocompany",
+  "arch": ["aarch64"],
+  "hassio_role": "default",
+  "map": ["config:rw"],
+  "options": {
+    "TELEGRAM_TOKEN": "",
+    "TELEGRAM_ADMIN_IDS": "",
+    "ALLOWED_CHAT_IDS": "",
+    "DEBUG": false
+  },
+  "schema": {
+    "TELEGRAM_TOKEN": "str",
+    "TELEGRAM_ADMIN_IDS": "str",
+    "ALLOWED_CHAT_IDS": "str",
+    "DEBUG": "bool"
+  }
+}
