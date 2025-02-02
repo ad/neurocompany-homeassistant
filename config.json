@@ -12,20 +12,27 @@
   "options": {
     "TELEGRAM_TOKEN": "",
     "TELEGRAM_ADMIN_IDS": "",
-    "ALLOWED_CHAT_IDS": "",
+    "ALLOWED_CHAT_ID": -1,
     "DEBUG": false,
-    "integrations": []
+    "integrations": [],
+    "worker_threads": []
   },
   "schema": {
     "TELEGRAM_TOKEN": "str",
     "TELEGRAM_ADMIN_IDS": "str",
-    "ALLOWED_CHAT_IDS": "str",
+    "ALLOWED_CHAT_ID": "int",
     "DEBUG": "bool",
     "integrations": [
       {
         "type": "str",
         "id": "str?",
         "secret": "str?"
+      }
+    ],
+    "worker_threads": [
+      {
+        "id": "str",
+        "thread": "str"
       }
     ]
   }
