@@ -32,7 +32,8 @@
     "worker_threads": [
       {
         "id": "str",
-        "thread": "str"
+        "thread": "str",
+        "starter": "str?"
       }
     ]
   }
