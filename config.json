@@ -33,7 +33,8 @@
       {
         "id": "str",
         "thread": "str",
-        "starter": "str?"
+        "starter": "str?",
+        "prompt": "str?"
       }
     ]
   }
